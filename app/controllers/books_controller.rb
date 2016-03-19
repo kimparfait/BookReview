@@ -11,6 +11,7 @@ class BooksController < ApplicationController
 	    	end
 
 	end 
+	
 
 	def show
 		if @book.reviews.blank?
@@ -57,7 +58,7 @@ class BooksController < ApplicationController
 	end 
 	private
 		def book_params
-			params.require(:book).permit(:title, :description, :author, :category_id)
+			params.require(:book).permit(:title, :description, :author, :category_id, :image)
 
 		end
 		def find_book

@@ -10,7 +10,7 @@ gem 'sass-rails', '~> 4.0.3'
 gem 'simple_form', '~> 3.1'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.4.1'
 gem 'devise', '~> 3.5', '>= 3.5.1'
-
+gem "paperclip", "~> 4.3"
 gem 'mimemagic', '~> 0.3.0'
 gem 'carrierwave', '~> 0.10.0'
 
@@ -23,7 +23,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 
 
-gem 'stripe', '~> 1.36'
+
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
